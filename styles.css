@@ -1,10 +1,17 @@
 @import url(
     'https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap'
 );
-body{
-    font-family: 'Josefin Sans',sans-serif;
+:root{
+    --primary-color:#2563EB;
 
 }
+body{
+    font-family: 'Josefin Sans',sans-serif;
+}
+hr {
+    margin: 2.0rem 0rem;
+}
+
 /* container class */
 .container{
     padding-left: 1rem;
@@ -13,4 +20,20 @@ body{
 .container-center{
     max-width: 600px;
     margin:auto; 
+}
+/* links */
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.primary-link{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+.secondary-link{
+    /* background-color: var(--primary-color); */
+    border-radius: 0.5rem;
+    color:var(--primary-color);
+    border: 1px solid var(--primary-color);
 }
