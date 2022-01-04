@@ -4,6 +4,9 @@
 :root{
     --primary-color:#1D4ED8;
     --dark-gray:#334155;
+    --off-white:#E2E8F0;
+
+
 
 }
 /* a:visited{ */
@@ -91,4 +94,9 @@ hr {
 /* highlighting something */
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color);
+}
+/* sections */
+.section{
+    text-align: center;
+    padding-top: 2rem;
 }
