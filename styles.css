@@ -3,6 +3,7 @@
 );
 :root{
     --primary-color:#1D4ED8;
+    --dark-gray:#334155;
 
 }
 /* a:visited{ */
@@ -73,4 +74,21 @@ hr {
 }
 .navigation .link-active{
     font-weight: bold;
+}
+.hero{
+    padding: 2rem;
+}
+.hero .hero-image{
+    display: block;
+    max-width: 350px;
+    margin: auto;
+}
+.hero .hero-heading{
+    padding-top: 1rem;
+    color: var(--dark-gray);
+    
+}
+/* highlighting something */
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
 }
