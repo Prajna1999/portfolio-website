@@ -44,8 +44,12 @@ hr {
 }
 .primary-link{
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     color: white;
+    max-width: 140px;
+    padding: 0.6rem, 1.2rem;
+    margin: 1rem auto;
+    
 }
 .secondary-link{
     /* background-color: var(--primary-color); */
